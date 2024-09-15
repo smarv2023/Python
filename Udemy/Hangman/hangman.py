@@ -30,7 +30,7 @@ while not end_of_game:
         life -= 1
 
     # Then reduce 'lives' by 1.
-    # If lives goes down to 0 then the game should stop and it should print "You lose."
+    # If lives goes down to 0 then the game should stop, and it should print "You lose."
     # Join all the elements in the list and turn it into a String.
     print(f"{' '.join(display)}")
 
